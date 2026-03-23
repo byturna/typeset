@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Typeset
+
+A browser-based tool for previewing font pairings, type scales, and color palettes — rendered on a realistic Wikipedia-style article. Export your configuration as CSS variables, Tailwind tokens, or Figma values.
+
+## Features
+
+- **Font pairing** — browse and combine ~55 curated Google Fonts with smart pairing rules (display fonts for headings, compatible categories)
+- **Type scale** — live preview of a modular scale (Major Third, 1.25 ratio) across seven size steps
+- **Color palettes** — pre-made palettes with WCAG AA contrast compliance between text and background
+- **Article preview** — renders a fake Wikipedia article with real typographic structure: headings, body copy, info boxes, data tables, footnotes
+- **Randomize** — generates a new font pairing + palette + article in one click
+- **Export** — copy your configuration as CSS custom properties, Tailwind theme values, or Figma token-ready JSON
+
+## Stack
+
+- [Next.js](https://nextjs.org) (App Router) + React 19 + TypeScript
+- [Tailwind CSS v4](https://tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.com) (Radix primitives)
+- [Google Fonts CSS API v2](https://developers.google.com/fonts/docs/css2) for dynamic font loading
+- Deployed on [Vercel](https://vercel.com)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All preview styling is driven by CSS custom properties set on a wrapper `div`. Changing a font or palette updates a property — no component re-renders, no class swapping.
 
-## Learn More
+```
+--color-bg        --color-text       --color-primary
+--color-secondary --color-surface
 
-To learn more about Next.js, take a look at the following resources:
+--font-heading    --font-body
+--font-size-sm    --font-size-base   --font-size-md
+--font-size-lg    --font-size-xl     --font-size-2xl    --font-size-3xl
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+--line-height-body  --type-scale
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Fonts load on demand by injecting `<link>` tags for the Google Fonts API. The top 12 popular fonts are preloaded on page load.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+  app/              # Next.js App Router entry
+  components/
+    bottom-bar/     # Floating toolbar (font, palette, randomize, export controls)
+    export-modal/   # Export dialog with CSS / Tailwind / Figma tabs
+    preview/        # Wikipedia-style article renderer
+    ui/             # shadcn/ui components (auto-generated)
+  data/
+    fonts.json      # Curated Google Fonts with metadata
+    articles/       # Fake Wikipedia article content (JSON)
+  lib/
+    state.ts        # useReducer + Context — single source of truth
+    fonts.ts        # Font loading and pairing logic
+    colors.ts       # Palette data and contrast calculation
+    type-scale.ts   # Modular scale computation
+    export.ts       # CSS / Tailwind / Figma export generators
+    randomize.ts    # Randomization logic
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+MIT
