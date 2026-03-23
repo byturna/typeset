@@ -1,0 +1,249 @@
+{
+    "id": "department-miscellaneous-units",
+    "slug": "department-miscellaneous-units",
+    "category": "article",
+    "title": "International Bureau of Weights and Measures: Department of Miscellaneous Units",
+    "infobox": {
+      "type": "Organization",
+      "fields": {
+        "name": "Department of Miscellaneous Units",
+        "parent_organization": "International Bureau of Weights and Measures (BIPM)",
+        "founded": "1983",
+        "headquarters": "Sèvres, France",
+        "director": "Dr. Margot Vérité (2019–present)",
+        "employees": "47",
+        "official_abbreviation": "DMU"
+      }
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "role": "lead",
+        "text": "The **Department of Miscellaneous Units** (DMU) is a specialized subdivision of the [International Bureau of Weights and Measures](https://en.wikipedia.org/wiki/International_Bureau_of_Weights_and_Measures) established in 1983 to standardize, categorize, and maintain official recognition of culinary, colloquial, and otherwise non-standard measurement units used across international trade and domestic applications. Operating from the BIPM's headquarters in Sèvres, France, the DMU has become the world's foremost authority on units of measurement that fall outside the International System of Units (SI), including the **smidge**, the **pinch**, the **dash**, and the **splash**. With a staff of 47 metrologists, chemists, and linguists, the department annually certifies the equivalences of approximately 2,300 obscure measurement units and arbitrates disputes concerning their precise definitions. The DMU is perhaps best known for its contentious 2011 redefinition of the pinch and the ongoing transatlantic controversy regarding the standardization of the dash and splash."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "History and Foundation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Following the adoption of the International System of Units in 1960, the BIPM focused exclusively on the seven base units and their derivatives. However, by the early 1980s, member nations increasingly protested the exclusion of traditional culinary measurements from international standardization efforts. The United Kingdom, United States, and France independently lobbied for the creation of a regulatory body to address the chaos surrounding cooking measurements in international recipe publications and food manufacturing.[^1] In 1983, after years of diplomatic negotiation, the BIPM formally established the DMU as a *de facto* standards-setting organization, granting it authority to publish binding definitions of non-SI units. Dr. Heinrich Müller, a German metrologist with expertise in historical measurement systems, was appointed the department's first director."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Official Units and Definitions"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Smidge"
+      },
+      {
+        "type": "paragraph",
+        "text": "The **smidge** represents one of the DMU's most rigorously defined units. Formally ratified in 1987, a smidge is officially recognized as **1/32 of a teaspoon**, or equivalently 0.155 milliliters (mL).[^2] The term, etymologically traced to Scots English origins, was selected over competing candidates including the British \"soupçon\" and the American \"dab.\" The smidge maintains particular significance in pharmaceutical measurement and in the cosmetics industry, where precise small-volume applications require standardization. The DMU maintains four certified reference smidge measures in stainless steel at its Sèvres facility."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Pinch Controversy of 2011"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most infamous episode in the DMU's history occurred when director Dr. Margot Vérité proposed a redefinition of the **pinch** in July 2011. Traditionally, a pinch was defined as the amount of substance that could fit between the thumb and forefinger—a definition notorious for its anthropometric variability. Dr. Vérité's proposal sought to standardize the pinch at **1/8 of a teaspoon** (approximately 0.625 mL), representing a significant departure from the previous *ad hoc* measurement. The proposal ignited what became known as the \"Pinch Conflict,\" with conservative metrologists arguing that the definition represented an abandonment of the unit's folk-etymological origins."
+      },
+      {
+        "type": "blockquote",
+        "text": "The pinch has always been a measure of human intuition applied to ingredient measurement. To reduce it to a precise fraction is to betray the entire philosophy of culinary arts.",
+        "attribution": "Dr. Wilhelm Schwarz, Institute for Traditional Measurements, Frankfurt (2011)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Despite fierce opposition from culinary traditionalists and several European nations, the redefinition was formally adopted in November 2011 by a 12-to-5 vote among DMU member states. Today, the standardized pinch at 0.625 mL is used in approximately 73% of international recipe publications, though British and German cookbooks frequently employ alternative definitions.[^3]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Dash and Splash Dispute"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the most persistent and unresolved controversies in the DMU concerns the distinction between the British **dash** and the American **splash**. The British dash, historically defined as a quick wrist motion producing approximately 6–8 drops, was officially standardized in 1993 as **1/4 teaspoon** (1.25 mL). The American splash, originating from bartending traditions, was similarly standardized in 1995 as **1/2 ounce** (14.8 mL). However, the precise distinction between the two units remains disputed. Some metrologists argue the terms are functionally identical and represent redundant standardization, while others contend that the context (culinary versus beverage preparation) justifies separate definitions.[^4] The DMU continues to recognize both units independently, though proposals for reconciliation are submitted annually."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Officially Recognized Miscellaneous Units"
+      },
+      {
+        "type": "table",
+        "caption": "Selected Officially Recognized Miscellaneous Units and SI Equivalents",
+        "headers": [
+          "Unit Name",
+          "Origin",
+          "Official Definition",
+          "SI Equivalent (mL)",
+          "Primary Use"
+        ],
+        "rows": [
+          [
+            "Smidge",
+            "Scots English",
+            "1/32 teaspoon",
+            "0.155",
+            "Culinary; pharmaceuticals"
+          ],
+          [
+            "Pinch",
+            "Multiple origins",
+            "1/8 teaspoon",
+            "0.625",
+            "Culinary; seasoning"
+          ],
+          [
+            "Dash (British)",
+            "English",
+            "1/4 teaspoon",
+            "1.25",
+            "Culinary; beverages"
+          ],
+          [
+            "Splash (American)",
+            "American bartending",
+            "1/2 fluid ounce",
+            "14.8",
+            "Beverages; cocktails"
+          ],
+          [
+            "Tad",
+            "American colloquial",
+            "1/16 teaspoon",
+            "0.078",
+            "Culinary; exact measurement"
+          ],
+          [
+            "Soupçon (French)",
+            "French",
+            "1/64 teaspoon",
+            "0.078",
+            "Culinary; garnish"
+          ],
+          [
+            "Skosh",
+            "Japanese loanword",
+            "1/6 ounce",
+            "4.93",
+            "Culinary; beverages"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Functions and Responsibilities"
+      },
+      {
+        "type": "paragraph",
+        "text": "The DMU performs several critical functions within the international standards apparatus:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "**Certification of equivalences**: Establishing and maintaining official SI conversions for all recognized miscellaneous units",
+          "**Dispute arbitration**: Resolving conflicts between national and regional measurement traditions",
+          "**Reference maintenance**: Preserving certified reference measures and calibration standards",
+          "**Publication of standards**: Issuing the annual *Catalogue of Miscellaneous Units* and technical guidance documents",
+          "**Linguistic coordination**: Monitoring etymological origins and translingual equivalences across measurement systems",
+          "**Quality assurance**: Conducting metrological audits of commercial products claiming compliance with DMU standards"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Annual Calibration Ceremony"
+      },
+      {
+        "type": "paragraph",
+        "text": "Since 1984, the DMU has hosted the annual **Calibration Ceremony** in Sèvres, France, typically held in October. This formal event brings together metrologists, food scientists, government representatives, and culinary professionals from member states to ceremonially verify and recertify all reference measures maintained at BIPM headquarters. The ceremony includes the following stages:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Preliminary inspection of reference standards under controlled environmental conditions (23°C, 45–55% relative humidity)",
+          "Volumetric verification using precision glass cylinders and automated pipetting systems",
+          "Comparative analysis with national reference standards brought by member-state representatives",
+          "Documentation of any deviations or required adjustments to official definitions",
+          "Ceremonial re-sealing of reference measures in presurized containers with government witness signatures",
+          "Publication of the annual *Calibration Report* detailing all findings and any recommended definitional updates"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The 2022 Calibration Ceremony was notable for the discovery that the primary British dash reference measure had drifted approximately 0.03 mL from its specified value, prompting a full investigation and recalibration. The incident briefly reignited tensions between British and American delegations regarding the dash-splash distinction."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Criticism and Debate"
+      },
+      {
+        "type": "paragraph",
+        "text": "The DMU remains a controversial entity within the broader metrology community. Critics argue that standardizing inherently imprecise culinary measurements lends false scientific authority to informal practices and diverts resources from legitimately important standardization efforts. Traditionalist culinary organizations contend that the department's definitions are overly rigid and fail to account for cultural and contextual variations in measurement practice. Conversely, food safety advocates and manufacturers argue that the DMU has not gone far enough in standardizing niche units, leaving significant gaps in international commerce. The department has also faced persistent budget pressures, with some member states questioning whether the DMU justifies its annual operational cost of €2.1 million."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "See Also"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "[International Bureau of Weights and Measures](https://en.wikipedia.org/wiki/International_Bureau_of_Weights_and_Measures)",
+          "[International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units)",
+          "[Metrication](https://en.wikipedia.org/wiki/Metrication)",
+          "[History of measurement](https://en.wikipedia.org/wiki/History_of_measurement)",
+          "[Culinary measurement](https://en.wikipedia.org/wiki/Cup_(unit))"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "References"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "International Bureau of Weights and Measures (2020). *Official Catalogue of Miscellaneous Units*. BIPM Publications.",
+          "Vérité, Margot (2012). \"The Standardization of Culinary Measurement: Policy and Practice.\" *Journal of Metrology and Standards*, 18(4): 234–251.",
+          "Schwarz, Wilhelm (2013). *Traditional Measures: A Metrologist's Dissent*. Frankfurt University Press.",
+          "BIPM Directorate (2023). *Annual Calibration Report 2022*. Sèvres: BIPM Publications."
+        ]
+      },
+      {
+        "type": "footnotes",
+        "items": [
+          {
+            "id": "1",
+            "text": "The original proposal was submitted jointly by representatives of the UK's National Physical Laboratory, the United States National Institute of Standards and Technology (NIST), and the French Bureau National de Métrologie."
+          },
+          {
+            "id": "2",
+            "text": "This definition assumes standard US teaspoon measurement of 5 mL; variation exists in other measurement systems."
+          },
+          {
+            "id": "3",
+            "text": "According to a 2019 survey conducted by the DMU, German and Austrian cookbooks continue to employ the pre-2011 definition in approximately 82% of published recipes."
+          },
+          {
+            "id": "4",
+            "text": "The American Bartenders' Association maintains its own parallel definition of splash as 1/4 to 1/2 ounce, creating further complexity in standardization efforts."
+          }
+        ]
+      }
+    ]
+  }

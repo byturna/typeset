@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { TypesetProvider } from "@/lib/state";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,7 +30,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <TypesetProvider>
+          <TooltipProvider>
+            <div className="hidden md:block">{children}</div>
+            <div className="flex md:hidden min-h-screen items-center justify-center p-8 text-center font-sans">
+              <div className="max-w-sm space-y-3">
+                <p className="text-2xl">🖥️</p>
+                <p className="font-semibold text-lg">Typeset is designed for desktop.</p>
+                <p className="text-muted-foreground text-sm">
+                  Open this page on your computer for the best experience.
+                </p>
+              </div>
+            </div>
+          </TooltipProvider>
+        </TypesetProvider>
+        <Toaster />
       </body>
     </html>
   );
