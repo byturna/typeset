@@ -42,6 +42,16 @@ yarn-error.log*
 skills-lock.json
 CLAUDE.md
 
+# internal docs
+typeset-prd.md
+
+# unused next.js boilerplate assets
+public/file.svg
+public/globe.svg
+public/next.svg
+public/vercel.svg
+public/window.svg
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
